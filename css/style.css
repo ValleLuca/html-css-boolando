@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+.container {
+    position: relative;
+    height: 500px;
+}
+
+.container .lsa::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.lsa {
+    position: absolute;
+    float: left;
+    margin: 1% 1%;
+    height: 500px;
+    width: 30%;
+}
