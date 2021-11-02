@@ -24,7 +24,7 @@ body {
 .art {
     float: left;
     margin: 1% 1%;
-    height: 500px;
+    height: 550px;
     width: 30%;
     position: relative;
 }
@@ -41,7 +41,7 @@ body {
     width: 100%;
 }
 
-.Marca, .Descr, .prezzo {
+.Marca, .Descr, .prezzo, .sostenibilita {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -63,11 +63,38 @@ body {
     text-decoration: line-through;
 }
 
-.img div {
+.cuore {
     position: absolute;
     top: 30px;
     right: 0px; 
     background-color: white;
     padding: 5px 10px;
+    font-size: 18px;
+}
+
+.sostenibilita, .sostenibilita1 {
+    position: absolute;
+    bottom: 75px;
+    background-color: #00875a;
+    padding: 2px 3px;
+    font-size: 10px;
+    color: white;
+}
+
+.sostenibilita {
+    left: 30px;
+}
+
+.sostenibilita1 {
+    left: 0px;
+}
+
+.sconti {
+    position: absolute;
+    bottom: 75px;
+    background-color: #ea0137;
+    padding: 3px 3px;
+    font-size: 10px;
+    color: white;
 }
 
