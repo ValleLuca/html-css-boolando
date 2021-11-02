@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,19 +13,49 @@ body {
 
 .container {
     position: relative;
-    height: 500px;
 }
 
-.container .lsa::after {
+.container::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.lsa {
-    position: absolute;
+.art {
     float: left;
     margin: 1% 1%;
     height: 500px;
     width: 30%;
+}
+
+.img img {
+    width: 100%;
+}
+
+.Marca, .Descr, .prezzo {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Marca {
+    font-size: 13px;
+} 
+
+.Descr {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.prezzo {
+    color: red;
+}
+
+.sottolineato {
+    color: black;
+    text-decoration: line-through;
+}
+
+div.img:first-child {
+    position: absolute;
+    right: 0;
+    top: 10;
 }
