@@ -66,8 +66,8 @@ body {
 .img div {
     position: absolute;
     top: 30px;
-    right: ;
+    right: 0px; 
     background-color: white;
-    padding: 5px 25px 5px 5px;
-
+    padding: 5px 10px;
 }
+
